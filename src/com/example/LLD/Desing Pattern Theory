@@ -1,0 +1,17 @@
+Builder Pattern
+
+lets suppose a class has few mandatory and optional fields. lets take car class
+mandatory fields - seat, engine, fule tank, steering
+optinal - music, airbag
+
+we can define all these fields in 3 ways -:
+contructor - need to efine all optional and mandatory which will make extra effort and don't provide clean code
+Builder - cood looks clean. immutable obj after it is build. simple construction
+create a builder class and build method and define all the methods there
+https://www.baeldung.com/lombok-builder
+we can use @builder annotation from lambok to create that
+setters - we can refine any defined object usign setters. this make obj mutable. but immutable is better
+
+
+
+

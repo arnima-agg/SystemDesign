@@ -1,0 +1,18 @@
+Synchronization
+
+Synchronization in java is the ability to control the access of multiple threads to any shared resource .
+In the Multithreading concept, multiple threads try to access the shared resources at a time to produce inconsistent results.
+The synchronization is necessary for reliable communication between threads.
+
+
+https://www.geeksforgeeks.org/difference-between-thread-start-and-thread-run-in-java/
+
+
+Runnable
+
+java.lang.Runnable is an interface that is to be implemented by a class whose instances are intended to be executed by a thread.
+There are two ways to start a new Thread – Subclass Thread and implement Runnable.
+There is no need of subclassing a Thread when a task can be done by overriding only run() method of Runnable.
+
+
+
